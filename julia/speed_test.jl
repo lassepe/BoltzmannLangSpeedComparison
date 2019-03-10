@@ -43,7 +43,7 @@ end
 
 function get_action_distribution(beta::Float64, s::State, as::AS) where AS <: AbstractArray{Action}
     aprobs = [exp(beta * compute_qval(s, a)) for a in as]
-    return SparseCat(1:17, aprobs)
+    return SparseCat(1:length(as), aprobs)
 end
 
 function transition(s::State, as::AS, beta::Float64, rng::AbstractRNG) where AS <: AbstractArray{Action}
