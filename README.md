@@ -60,6 +60,8 @@ python speed_test.py
 Dependencies:
 
 - `eigen3.3`
+- Cmake
+- Make
 
 ```bash
 cd cpp
