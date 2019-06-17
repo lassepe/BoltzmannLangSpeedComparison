@@ -4,7 +4,7 @@ Comparing the computation time for sampling from a Boltzmann model in Python, Ju
 
 ## Results:
 
-On my machine I get:
+Results collected from running each implementation on a laptop with CPU *Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz*.
 
 | Language | Duration (microseconds) | Ratio (normalized to Julia) |
 | -        | -                       | -                           |
